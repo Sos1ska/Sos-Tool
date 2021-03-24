@@ -74,4 +74,4 @@ ln -s $HOME/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
 termux-elf-cleaner /data/data/com.termux/files/usr/lib/ruby/gems/2.4.0/gems/pg-0.20.0/lib/pg_ext.so
 chmod 777 ~/Sos-Tool/Sos1ska-Tool/Sos1ska-Tool/cont_install.sh
 clear
-sh ~/Sos1ska-Tool/Sos1ska-Tool/cont_install.sh
+sh ~/Sos-Tool/cont_install.sh
