@@ -35,9 +35,25 @@ echo 'Начинаем установку Sos1ska-Tool'
 sleep 5
 
 apt update && apt upgrade
-pkg install git curl python python2 python3 ruby gem nano dos2unix nmap unzip unrar
+pkg install nano -y
+pkg install wget -y
+pkg install curl -y
+pkg install python -y
+pkg install python2 -y
+pkg install python3 -y
+pkg install toilet -y
+pkg install gem -y
+pkg install ruby -y
+pkg install nmap -y
+pkg install unzip -y
+pkg install unrar -y
 pip install --upgrade pip
-pip install colorama vk_api urllib3 bs4 html2text requests
+pip install colorama 
+pip insyall vk_api 
+pip install urllib3 
+pip install bs4 
+pip install html2text
+pip install requests
 gem install bundler
 sed 's|nokogiri (1.*)|nokogiri (1.8.0)|g' -i Gemfile.lock
 gem install nokogiri -v 1.8.0 -- --use-system-libraries
