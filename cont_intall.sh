@@ -76,3 +76,4 @@ dos2unix $PREFIX/bin/Sos-help
 clear
 echo 'Не бойтесь, Termux сейчас выключится, вам потребуется снова в него зайти'
 sleep 5
+exit 
